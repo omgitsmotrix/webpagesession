@@ -1,0 +1,56 @@
+.temp{
+  display: none;
+}
+
+#sora{
+  width: 170px;
+  height: 300px;
+  display: block;
+}
+#soraHyperlink{
+  display:block;
+  margin: 0 auto;
+  width:170px;
+  height:300px;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url("fonts/Amadeus-webfont.woff") format("woff");
+
+}
+
+#imageDescription{
+  font-family: myFont;
+  text-align: center;
+}
+#introduction{
+  font-family: myFont;
+  padding-left: 0.5%;
+}
+#mySpan{
+  color:red;
+}
+
+
+#hyperlink{
+  padding-left:0.5%
+}
+a:link#hyperlink,a:visited#hyperlink{
+  color: orange;
+}
+a:hover#hyperlink{
+  color: red;
+}
+
+body{
+  margin: 0;
+
+}
+
+header{
+  display:block;
+  background:#8C2222;
+  width:auto;
+  height:200px;
+}

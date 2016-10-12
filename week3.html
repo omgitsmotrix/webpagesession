@@ -15,9 +15,9 @@
         margin: 0 auto;
       }
 
-      @@font-face {
+      @font-face {
         font-family: myFont;
-        src:url('fonts/Amadeus-webfont.woff') format('woff');
+        src: url("Amadeus-webfont.woff") format("woff");
 
       }
 
@@ -25,14 +25,16 @@
         font-family: myFont;
         text-align: center;
       }
-
+      #myHeading{
+        font-family: myFont;
+      }
 
     </style>
   </head>
 
   <body>
 
-    <h1>Hello <span style="color:red;">World</span> </h1>
+    <h1 id="myHeading">Hello <span style="color:red;">World</span> </h1>
 
     <h1 class="temp">My website</h1>
 
